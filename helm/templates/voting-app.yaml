@@ -16,13 +16,11 @@ spec:
         result:
           image:
             tag: latest
-          ingress:
-            host: result.192.168.64.6.nip.io
+          ingressHost: result.192.168.64.6.nip.io
         vote:
           image:
             tag: latest 
-          ingress:
-            host: vote.192.168.64.6.nip.io
+          ingressHost: vote.192.168.64.6.nip.io
         worker:
           image:
             tag: latest
